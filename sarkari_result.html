@@ -1,0 +1,712 @@
+<html>
+    <head>
+        <style>
+            .outer{
+                min-height: 5000px;
+                width: 1000px;
+                margin: 0px auto;
+                background: white;
+            }
+            .top{
+                height: 200px;
+                width: 100%;
+            }
+            .up{
+                height: 150px;
+                width: 100%;
+                background: #ab183d;
+            }
+            .laft{
+                height: 150px;
+                width: 150px;
+                float: left;
+            }
+            img{
+                height: 130px;
+                width: 130px;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+            .right{
+                height: 150px;
+                width: 800px;
+                float: left;
+            }
+            .right h1{
+                text-align: center;
+                color: white;
+                font-size: 50px;
+            }
+            .right h4{
+                text-align: center;
+                color: white;
+                position: relative;
+                top: -30px;
+                font-size: 20px;
+                
+            }
+            nav{
+                height: 50px;
+                width: 100%;
+                background: black;
+                margin-top: -16px;
+            }
+            nav ul{
+                list-style: none;
+            }
+            nav ul li{
+                height: 50px;
+                width: 111px;
+                background: black;
+                color: white;
+                float: left;
+                text-align: center;
+                line-height: 50px;
+                border-right: 1px solid white;
+            }
+            .scroll{
+                height: 180px;
+                width: 100%;
+            }
+            .x{
+                height: 60px;
+                width: 100%;
+                background: white;
+                text-align: center;
+                line-height: 60px;
+                color: #323232;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .y{
+                height: 30px;
+                width: 100%;
+                background: white;
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .z{
+                height: 100px;
+                background: white;
+                width: 100%;
+                font-size: 18px;
+                line-height: 20px;
+
+            }
+            .main{
+                height: 150px;
+                width: 100%;
+                background: rgb(243, 248, 243);
+            }
+            .row1{
+                height: 50px;
+                width: 100%;
+                text-align: center;
+                font-size: 30px;
+                color: gray;
+                line-height: 50px;
+            }
+            .row2{
+                height: 50px;
+                width: 100%;
+            }
+            .btn{
+                height: 40px;
+                width: 130px;
+                background: skyblue;
+                color: white;
+                font-weight: bold;
+                border: none;
+                margin-left: 350px;
+                font-size: 16px;
+                border-radius: 5px;
+            }
+            .btn1{
+                height: 40px;
+                width: 120px;
+                background: rgb(224, 220, 220);
+                color: black;
+                font-weight: bold;
+                border: none;
+                margin-left: 10px;
+                margin-top: 5px;
+                font-size: 16px;
+                border-radius: 5px;
+            }
+            .allbutt{
+                height: 200px;
+                width: 100%;
+                background: white;
+            }
+            .rows3{
+                height: 30px;
+                width: 100%;
+            }
+            .btn2{
+                height: 25px;
+                width: 170px;
+                border-radius: 15px;
+                border: none;
+                background: skyblue;
+                margin-left: 400px;
+                color: white;
+            }
+            .rows4{
+                height: 50px;
+                width: 100%;
+                background: white;
+            }
+            .you{
+                height: 40px;
+                width: 330px;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                margin-left: 300px;
+                background: darkblue;
+            }
+            .you a{
+                color: white;
+                text-align: center;
+            }
+            .rows5{
+                height: 120px;
+                width: 100%;
+            }
+            .rows6{
+                height: 60px;
+                width: 100%;
+            }
+            .box1{
+                height: 55px;
+                width: 24.5%;
+                background: gray;
+                float: left;
+                margin-left: 4px;
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .allform{
+                height: 1000px;
+                width: 100%;
+                margin-top: 50px;
+            }
+            .col1{
+                height: 1000px;
+                width: 300px;
+                float: left;
+                margin-left: 25px;
+                box-sizing: border-box;
+                border: 2px solid #d2691e;
+            }
+            .col2{
+                height: 1000px;
+                width: 300px;
+                float: left;
+                margin-left: 20px;
+                box-sizing: border-box;
+                border: 2px solid #d2691e;
+            }
+            .col3{
+                height: 1000px;
+                width: 300px;
+                float: left;
+                margin-left: 20px;
+                box-sizing: border-box;
+                border: 2px solid #d2691e;
+            }
+            .xyz{
+                height: 40px;
+                width: 100%;
+                background: #ab183d;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                line-height: 40px;
+                font-size: 25px;
+            }
+            .element{
+                height: 940px;
+                width: 280px;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+            .element ul li{
+                line-height: 22px;
+                
+            }
+            .view{
+                text-align: right;
+                padding-top: 20px;
+                font-weight: bold;
+                padding-right: 10px;
+                color: darkblue;
+                font-size: 20px;
+            }
+            .rows10{
+                height: 900px;
+                width: 100%;
+                margin-top: 25px;
+            }
+            .rows11{
+                height: 900px;
+                width: 64.5%;
+                float: left;
+            }
+            .rows12{
+                height: 900px;
+                width: 35.4%;
+                background: greenyellow;
+                float: left;
+            }
+            .rows13{
+                height: 450px;
+                width: 100%;
+            }
+            .rows14{
+                height: 450px;
+                width: 100%;
+            }
+            .cols5{
+                height: 400px;
+                width: 46.5%;
+                float: left;
+                margin-left: 25px;
+                box-sizing: border-box;
+                border: 2px solid #ab183d;
+            }
+            .cols6{
+                height: 400px;
+                width: 46.5%;
+                float: left;
+                margin-left: 20px;
+                box-sizing: border-box;
+                border: 2px solid #ab183d;
+            }
+            .rows14{
+                height: 400px;
+                width: 100%;
+            }
+            .content{
+                height: 1500px;
+                width: 100%;
+                box-sizing: border-box;
+                border: 2px solid #ab183d;
+            }
+            .para1{
+                height: 500px;
+                width: 100%;
+            }
+            .mno{
+                height: 50px;
+                width: 100%;
+                background: #ab183d;
+                color: white;
+                font-weight: bold;
+                margin-top: 20px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 25px;
+            }
+            .onm{
+                height: 400px;
+                width: 95%;
+                margin-left: 25px;
+                margin-top: 20px;
+                text-align: center;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 20px;
+            }
+            footer{
+                height: 500px;
+                width: 100%;
+                margin-top: 20px;
+            }
+            .f1{
+                height: 500px;
+                width: 18%;
+                float: left;
+                margin-left: 50PX;
+            }
+            .f2{
+                height: 500px;
+                width: 18%;
+                float: left;
+            }
+            .f3{
+                height: 500px;
+                width: 18%;
+                float: left;
+            }
+            .f4{
+                height: 500px;
+                width: 18%;
+                float: left;
+            }
+            .f5{
+                height: 500px;
+                width: 18%;
+                float: left;
+            }
+            .c1{
+                height: 600px;
+                width: 90%;
+                margin-top: 40px;
+                margin-left: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="top">
+                <div class="up">
+                    <div class="laft">
+                        <img src="logo-new.png" alt="">
+                    </div>
+                    <div class="right">
+                        <h1>SARKARI RESULT</h1>
+                        <h4 href="">WWW.SARKARIRESULT.COM</h4>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li style="left: -20px; position: relative;">Home</li>
+                        <li style="padding-left: 0px;">Letest Jobs</li>
+                        <li>Results</li>
+                        <li>Admit Card</li>
+                        <li>Anwser Key</li>
+                        <li>Syllabus</li>
+                        <li>Serach</li>
+                        <li style="border-right: none; padding-left: 30px;">Contact Us</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="scroll">
+                <div class="x">Sarkari Result : SarkariResult.Com Sarkari Naukri Latest Jobs Online Form at Sarkari Results 2022</div>
+                <div class="y">
+                    <a href="">Sarkari Result Android Apps</a> <span style="color: black;">||</span> <a href="">Sarkari Result Youtube Channel</a> <span style="color: black;">||</span> <a href="">Sarkari Result Apple / IOS Apps</a> <span style="color: black;">||</span> <a href="">Follow Instagram</a>
+                </div>
+                <div class="z">
+                    <marquee behavior="alternate" direction=""><a href="">UP Scholarship Online Form 2022</a> <span style="color: black;">||</span> <a href="">NTA ICAR AIEEA UG Score Card 2022</a><span style="color: black;">||</span> <a href="">BPSC 67 Pre Answer Key 2022</a></marquee> 
+                    <marquee behavior="alternate" direction=""><a href="">NTA CUET UG University Wise Registration 2022 </a> <span style="color: black;">||</span> <a href="">BPSC 67 Pre Answer Key 2022 </a> <span style="color: black;">||</span> <a href="">AFCAT 02/2022 Result</a> </marquee>
+                    <marquee behavior="alternate" direction=""><a href="">RSMSSB PTI Answer Key 2022</a> <span style="color: black;">||</span> <a href="">SSC Scientific Assistant 2022 Online Form </a> <span style="color: black;">||</span> <a href="">UP BSc Nursing Online Counseling 2022</a> </marquee>
+                </div>
+            </div>
+            <div class="main">
+                <div class="row1">Ads By Google</div>
+                <div class="row2">
+                    <input type="submit" value="report this ads" class="btn"><input type="submit" value="Ads Choices?" class="btn1">
+                </div>
+            </div>
+            <div class="allbutt">
+                <div class="rows3">
+                    <input type="submit" value="Follow @sarkari_result" class="btn2">
+                </div>
+                <div class="rows4">
+                    <div class="you"><a href="">Sarkari Result Youtube</a></div>
+                </div>
+                <div class="rows5">
+                    <div class="rows6">
+                        <div class="box1" style="background: #868a08;">CUET UG 2022 <br> University Registration</div>
+                            
+                        <div class="box1" style="background: #0404b4;">SSC Scientific Asst. <br> Apply Online</div>
+                           
+                        <div class="box1" style="background: #fb5e03;">UPBEd 2022 <br> Online Counseling</div>
+                            
+                        <div class="box1" style="background: #ab183d;">CISF ASI Steno/HC <br> Apply Online</div>
+                            
+                    </div>
+                    <div class="rows5">
+                        <div class="rows6">
+                            <div class="box1" style="background: #fb0303;">CUET UG 2022 <br> University Registration</div>
+                                
+                            <div class="box1" style="background: #0b610b;">SSC Scientific Asst. <br> Apply Online</div>
+                               
+                            <div class="box1" style="background: #ff00bf;">UPBEd 2022 <br> Online Counseling</div>
+                                
+                            <div class="box1" style="background: rgb(49, 185, 239);">CISF ASI Steno/HC <br> Apply Online</div>
+                                
+                        </div>
+                </div>
+            </div>
+            <div class="allform">
+                <div class="col1">
+                    <div class="xyz">Result</div>
+                    <div class="element">
+                        <ul>
+                            <li><a href="#">BPSC Motor Vehicle Inspector Final Result 2022</a></li>
+                            <li><a href="#">MPPSC Pre 2019 Revised Result & Cutoff</a></li>
+                            <li><a href="#">UPSC Civil Services IAS 2021 Reserve List</a></li>
+                            <li><a href="#">BPSC Civil Judge 31 Final Result 2022</a></li>
+                            <li><a href="#">UPBEd 2022 Seat Allotment Result</a></li>
+                            <li><a href="#">SSC MTS Result 2022</a></li>
+                            <li><a href="#">UP Police SI Confidential, ASI Accounts Additional Result 2022</a></li>
+                            <li><a href="#">AAI Junior Executive ATC Score Card 2022</a></li>
+                            <li><a href="#">UPSSSC Junior Assistant 2019 Final Result</a></li>
+                            <li><a href="#">FSSAI Various Post Final Result 2022</a></li>
+                            <li><a href="#">Nabard Assistant Manager Result 2022</a></li>
+                            <li><a href="#">NTA ICAR AIEEA UG Result 2022</a></li>
+                            <li><a href="#">Delhi Forest Guard Final Result 2022</a></li>
+                            <li><a href="#">UP B.Sc Nursing Result, Counseling Schedule 2022</a></li>
+                            <li><a href="#">MP Primary TET 2020 Result</a><br> Update</li>
+                            <li><a href="#">UP NHM Mental Health Various Post Result 2022</a></li>
+                            <li><a href="#">UP NHM PHN Tutor Result 2022</a></li>
+                            <li><a href="#">UPPSC Lecturer Ashram Paddhati 2021 Biology Result</a></li>
+                            <li><a href="#">UPPSC Engineering Services 2021 Result</a></li>
+                            <li><a href="#">Rajasthan REET 2022 Result</a></li>
+                            <li><a href="#">BSF Water Wing Constable, HC, SI Result 2022</a></li>
+                            <li><a href="#">UPSC NDA 2 Result 2022 (Name Wise)</a></li>
+                            <li><a href="#">UPSSSC Supply Inspector, UDA / LDA Result 2022</a></li>
+                           
+                            
+                            <div class="view">View More</div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="xyz">Admit Card</div>
+                    <div class="element">
+                        <ul>
+                        <li><a href="#">NTA AIEAPGET Exam City / Date 2022</a></li>
+                        <li><a href="#">NTA DUET Exam City / Date 2022</a></li>
+                        <li><a href="#">SSC Delhi Police Head Constable AWO/TPO Admit Card2022</a></li>
+                        <li><a href="#">SSC Delhi Police Constable Driver Admit Card 2022</a></li>
+                        <li><a href="#">DSSSB Jr. Secretariat Assistant LDC Skill Test Exam Date 2022</a></li>
+                        <li><a href="#">CSBC Bihar Police Fireman PET Admit Card 2022</a></li>
+                        <li><a href="#">RSMSSB Forest Guard Exam Date 2022</a></li>
+                        <li><a href="#">UPPSC State Engineering Services Interview Letter 2022</a></li>
+                        <li><a href="#">Army Agniveer Rally Exam Admit Card 2022</a></li>
+                        <li><a href="#">MP PEB PAT Admit Card 2022</a></li>
+                        <li><a href="#">UPSC CPF AC 2021 Interview Schedule</a></li>
+                        <li><a href="#">IBPS PO XII Pre Admit Card 2022</a></li>
+                        <li><a href="#">NTA UGC NET Admit Card, Phase IV Exam Date and City 2022</a></li>
+                        <li><a href="#">RPSC School Lecturer Admit Card 2022</a></li>
+                        <li><a href="#">UPSSSC Proof Reader 2016 Eligibility Checking Form</a></li>
+                        <li><a href="#">UPSSSC PET 2022 Admit Card</a></li>
+                        <li><a href="#">UPPSC Lecturer Homeopathic Admit Card 2022</a></li>
+                        <li><a href="#">UPPSC RO/ARO 2021 Skill Test Admit Card</a></li>
+                        <li><a href="#">SSC Delhi Police Head Constable Ministerial Admit Card 2022</a></li>
+                        <li><a href="#">CSBC Bihar Police Prohibition Constable Exam Admit Card 2022</a></li>
+                        <li><a href="#">UPBED 2022 Govt / Aided College List</a></li>
+                        <li><a href="#">IBPS Clerk XII Mains Admit Card 2022</a></li>
+                       
+                        <div class="view">View More</div>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="xyz">Letest Jobs</div>
+                    <div class="element">
+                        <ul>
+                            <li><a href="#">BPSC Motor Vehicle Inspector Final Result 2022</a></li>
+                            <li><a href="#">MPPSC Pre 2019 Revised Result & Cutoff</a></li>
+                            <li><a href="#">UPSC Civil Services IAS 2021 Reserve List</a></li>
+                            <li><a href="#">BPSC Civil Judge 31 Final Result 2022</a></li>
+                            <li><a href="#">UPBEd 2022 Seat Allotment Result</a></li>
+                            <li><a href="#">SSC MTS Result 2022</a></li>
+                            <li><a href="#">UP Police SI Confidential, ASI Accounts Additional Result 2022</a></li>
+                            <li><a href="#">AAI Junior Executive ATC Score Card 2022</a></li>
+                            <li><a href="#">UPSSSC Junior Assistant 2019 Final Result</a></li>
+                            <li><a href="#">FSSAI Various Post Final Result 2022</a></li>
+                            <li><a href="#">Nabard Assistant Manager Result 2022</a></li>
+                            <li><a href="#">NTA ICAR AIEEA UG Result 2022</a></li>
+                            <li><a href="#">RPSC School Lecturer Admit Card 2022</a></li>
+                            <li><a href="#">UPSSSC Proof Reader 2016 Eligibility Checking Form</a></li>
+                            <li><a href="#">UPSSSC PET 2022 Admit Card</a></li>
+                            <li><a href="#">UPPSC Lecturer Homeopathic Admit Card 2022</a></li>
+                            <li><a href="#">UPPSC RO/ARO 2021 Skill Test Admit Card</a></li>
+                            <li><a href="#">SSC Delhi Police Head Constable Ministerial Admit Card 2022</a></li>
+                            <li><a href="#">CSBC Bihar Police Prohibition Constable Exam Admit Card 2022</a></li>
+                            <li><a href="#">UPBED 2022 Govt / Aided College List</a></li>
+                            <li><a href="#">IBPS Clerk XII Mains Admit Card 2022</a></li>
+                        <div class="view">View More</div>
+                    </div>
+                </div>
+            </div>
+            <div class="rows10">
+                <div class="rows11">
+                    <div class="rows13">
+                        <div class="cols5">
+                            <div class="xyz">Answer Key</div>
+                            <div class="element">
+                                <ul>
+                                    <li><a href="#">RSMSSB PTI Answer Key 2022</a></li>
+                                    <li><a href="#">SSC Junior Hindi Translator JHT 2022 Answer Key</a></li>
+                                    <li><a href="#">BPSC 67 Pre Answer Key 2022</a></li>
+                                    <li><a href="#">NTA CSIR UGC NET Answer Key 2022</a></li>
+                                    <li><a href="#">UPRVUNL Various Post Answer Key 2022</a></li>
+                                    <li><a href="#">CSBC Bihar Police Prohibition Constable Exam Admit Card 2022</a></li>
+                                    <div class="view">View More</div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cols6">
+                            <div class="xyz">Syllabus</div>
+                            <div class="element">
+                                <ul>
+                                    <li><a href="#">RSMSSB PTI Answer Key 2022</a></li>
+                                    <li><a href="#">UPSSSC Mukhya Sevika Syllabus</a></li>
+                                    <li><a href="#">UPSSSC Combined Technical Services 2016 Revised Syllabus</a></li>
+                                    <li><a href="#">SSC CPO SI 2022 Syllabus</a></li>
+                                    <li><a href="#">Rajasthan 32000 Teacher Level 1, 2 Syllabus 2022</a></li>
+                                    <li><a href="#">UP PGT 2022 Syllabus</a></li>
+                                    <li><a href="#">UP TGT 2022 Syllabus</a></li>
+                                    <li><a href="#">SSC Junior Hindi Translator JHT 2022 Answer Key</a></li>
+                                    <div class="view">View More</div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rows14">
+                        <div class="cols5">
+                            <div class="xyz">Answer Key</div>
+                            <div class="element">
+                                <ul>
+                                    <li><a href="#">RSMSSB PTI Answer Key 2022</a></li>
+                                    <li><a href="#">RPSC School Lecturer Admit Card 2022</a></li>
+                                    <li><a href="#">UPSSSC Proof Reader 2016 Eligibility Checking Form</a></li>
+                                    <li><a href="#">UPSSSC PET 2022 Admit Card</a></li>
+                                    <li><a href="#">UPPSC Lecturer Homeopathic Admit Card 2022</a></li>
+                                    <li><a href="#">UPPSC RO/ARO 2021 Skill Test Admit Card</a></li>
+                                    <li><a href="#">SSC Delhi Police Head Constable Ministerial Admit Card 2022</a></li>
+                                <div class="view">View More</div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cols6">
+                            <div class="xyz">Syllabus</div>
+                            <div class="element">
+                                <ul>
+                                    <li><a href="#">RSMSSB PTI Answer Key 2022</a></li>
+                                    <li><a href="#">RPSC School Lecturer Admit Card 2022</a></li>
+                                    <li><a href="#">UPSSSC Proof Reader 2016 Eligibility Checking Form</a></li>
+                                    <li><a href="#">UPSSSC PET 2022 Admit Card</a></li>
+                                    <li><a href="#">UPPSC Lecturer Homeopathic Admit Card 2022</a></li>
+                                    <li><a href="#">UPPSC RO/ARO 2021 Skill Test Admit Card</a></li>
+                                    <li><a href="#">SSC Delhi Police Head Constable Ministerial Admit Card 2022</a></li>
+                                <div class="view">View More</div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="rows12">dfdg</div> -->
+                <div class="col3" style="height: 850px;">
+                    <div class="xyz">Letest Jobs</div>
+                    <div class="element">
+                        <ul>
+                            <li><a href="#">MPPSC Pre 2019 Revised Result & Cutoff</a></li>
+                            <li><a href="#">UPSC Civil Services IAS 2021 Reserve List</a></li>
+                            <li><a href="#">UP Police SI Confidential, ASI Accounts Additional Result 2022</a></li>
+                            <li><a href="#">AAI Junior Executive ATC Score Card 2022</a></li>
+                            <li><a href="#">UPSSSC Junior Assistant 2019 Final Result</a></li>
+                            <li><a href="#">FSSAI Various Post Final Result 2022</a></li>
+                            <li><a href="#">Nabard Assistant Manager Result 2022</a></li>
+                            <li><a href="#">NTA ICAR AIEEA UG Result 2022</a></li>
+                            <li><a href="#">RPSC School Lecturer Admit Card 2022</a></li>
+                            <li><a href="#">UPSSSC Proof Reader 2016 Eligibility Checking Form</a></li>
+                            <li><a href="#">UPSSSC PET 2022 Admit Card</a></li>
+                            <li><a href="#">UPPSC Lecturer Homeopathic Admit Card 2022</a></li>
+                            <li><a href="#">UPPSC RO/ARO 2021 Skill Test Admit Card</a></li>
+                            <li><a href="#">SSC Delhi Police Head Constable Ministerial Admit Card 2022</a></li>
+                            <li><a href="#">CSBC Bihar Police Prohibition Constable Exam Admit Card 2022</a></li>
+                            <li><a href="#">UPBED 2022 Govt / Aided College List</a></li>
+                            <li><a href="#">IBPS Clerk XII Mains Admit Card 2022</a></li>
+                        <div class="view">View More</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="para1">
+                    <div class="mno">Sarkari Result : Resources to Help Indians Get Government Jobs (Sarkari Job)</div>
+                    <div class="onm">
+                        <p>The future is uncertain, but a government job, Sarkari Jobs can help you secure your future. Click for valuable resources and help from Sarkari Result.</p>
+                        <p>Did you know that over 1.5 million people lost their jobs in August 2021 in rural and urban India? Yes, the COVID-19 pandemic has hit the job market hard. Small businesses and multinationals alike have had to reconsider their staffing requirements.</p>
+                        <p>Are you an unemployed Indian citizen because of the pandemic and fluctuating job market?</p>
+                        <p>Are you working for a multinational company going through restructuring and considering your next steps?</p>
+                        <p>Are you a recent graduate looking to find your first job?</p>
+                        <p>Are you wondering if a government job is right for you?</p>
+                        <p>You've come to the right place! At Sarkari Result, we will show you the benefits of an Indian government job and help you to find a government job that's stable, long-term, and right for you!</p>
+                    </div>
+                </div>
+                <div class="para1">
+                    <div class="mno">Why Should I Consider a Government Job?</div>
+                    <div class="onm">
+                        <p>In India, a Sarkari Naukri (or an Indian government job) is highly sought-after. It's the ultimate career goal, offering long-term security, good benefits, and friendly co-workers.</p>
+                        <p>More than that, an Indian government job offers an opportunity to live a life of purpose.</p>
+                        <p>It's a way for you to give back to your community.</p>
+                        <p>According to the Centre for Monitoring Indian Economy Pvt. Ltd. (CMIE), the unemployment rate in India increased from 6.5% in November 2020 to 7.75% in October 2021. In this fluctuating market, there has been an increase in the demand for the stability and permanence offered by a Sarkari Naukri.</p>
+                        <p>In addition, government jobs in India can be pretty lucrative offering competitive salaries, benefits, and pensions. Some of the highest-paid jobs in the Indian government include the Indian Administrative Services (IAS), Indian Foreign Services (IFS), and Indian Police Services (IPS).</p>
+                        <p>Keep in mind that these jobs are also highly competitive with a complex application process!</p>
+                    </div>
+                </div>
+                <div class="mno">Sarkari Result - www sarkari result</div>
+                <div class="onm">
+                <p>Sarkari Result Sarkariresult.com is a one-stop destination for all Sarkari Result queries on सरकारी रिजल्ट Sarkari results. It has a list of all the Government exams, Sarkari Result which can be seen as links. If one clicks on these exam names or links, the Sarkari Result website provides exhaustive information on that specific exam. This includes the timeline when the exam is conducted, admit card information, the number of seats offered, application forms, Sarkari result dates etc.</p>
+                </div>
+            </div>
+            <footer>
+                <div class="f1">
+                    <div class="c1">
+                        <h1>Quick Links</h1>
+                        <p>Sarkari Result @Twitter</p>
+                        <p>Sarkari Result @Telegram</p>
+                        <p>Sarkari Result @Instagram</p>
+                        <p>Sarkari Result @Koo</p>
+                        <p>Sarkari Result @Facebook</p>
+                        <p>Sarkari Result @Linkedin</p>
+                        <p>Sarkari Result @Youtube</p>
+                        <p>Sarkari Result Contact Us</p>
+                        <p>All Board Exams</p>
+                    </div>
+                </div>
+                <div class="f2">
+                    <div class="c1">
+                        <h1>Apps</h1>
+                        <p>Android App</p>
+                        <p>Apple IOS App</p>
+                        <p>Window App</p>
+                    </div>
+                </div>
+                <div class="f3">
+                    <div class="c1">
+                        <h1>More</h1>
+                        <p>BPSC</p>
+                        <p>UP-scholorshi</p>
+                        <p>UPSC</p>
+                        <p>RPSC</p>
+                        <p>UPPCS</p>
+                        <p>Coast Guard</p>
+                    </div>
+                </div>
+                <div class="f4">
+                    <div class="c1" style="padding-top: 40px;">
+                        <p>UPSSSC</p>
+                        <p>IBMS</p>
+                        <p>Air Fource</p>
+                        <P>DelhiDssb</P>
+                        <P>HSSC</P>
+                        <p>Police Vacancy</p>
+                    </div>
+                </div>
+                <div class="f5">
+                    <div class="c1" style="padding-top: 40px;">
+                       <P>CSS</P>
+                       <p>SSC</p>
+                       <p>Navy</p>
+                       <p>Railway</p>
+                       <p>TET</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
